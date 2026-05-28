@@ -62,4 +62,4 @@ Java 21 / Spring Boot 3 · Python 3 · ChromaDB (vektör veritabanı) · Ollama 
 
 **E-posta:** ganigurgah@gmail.com
 
-*Archon — Veri kurumunuzda kalır. Bilgi birikir. Kalite artar.*
+*Archon — AI'ın en güçlü olduğu yer, kendi bağlamınızla çalıştığı yerdir; genel cevaplar değil.*

@@ -69,9 +69,6 @@ style: |
   }
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                    GİRİŞ                           -->
-<!-- ═══════════════════════════════════════════════════ -->
 
 <!-- _class: lead -->
 
@@ -100,9 +97,6 @@ style: |
 ### **AI'ın en güçlü olduğu yer, kendi bağlamınızla çalıştığı yerdir; genel cevaplar değil.**
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                   ÖRNEKLER                         -->
-<!-- ═══════════════════════════════════════════════════ -->
 
 # Mert ile tanışın.
 
@@ -170,10 +164,6 @@ Archon NexaCore'un mimari standartlarına ve güvenlik profiline göre inceledi.
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                  İSTATİSTİKLER                     -->
-<!-- ═══════════════════════════════════════════════════ -->
-
 # Rakamlarla
 
 Selin gibi kaç geliştirici var?
@@ -200,9 +190,6 @@ Her ayrılan kişiyle birlikte giden bilgi transferi: ortalama **3–4 aylık ve
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                    KAPANIŞ                         -->
-<!-- ═══════════════════════════════════════════════════ -->
 
 # Neler tamamlandı — sırada ne var?
 
@@ -228,21 +215,29 @@ Her ayrılan kişiyle birlikte giden bilgi transferi: ortalama **3–4 aylık ve
 
 # Geliştiriciler ne diyor?
 
+<div style="display: flex; gap: 20px; font-size: 0.8em; margin-top: 30px;">
+<div style="flex: 1;">
+
 > *"PR review'larımızda standart ihlallerini zaten tartışmıyoruz artık — Archon bulmuş, yazmış. Biz mimari tartışmaya zaman ayırıyoruz."*
 >
 > — **Tarık Y.**, Kıdemli Yazılım Mimarı · İstanbul
 
----
+</div>
+<div style="flex: 1;">
 
 > *"Yeni gelen arkadaşa 'Git Archon'a sor' diyebiliyorum. Sorularının %80'ini kendisi hallediyor. Bu, benim için haftalık 5 saatin geri dönüşü."*
 >
 > — **Gözde A.**, Tech Lead · Ankara
 
----
+</div>
+<div style="flex: 1;">
 
 > *"Air-gapped gereksinimlerimiz vardı. Hiçbir bulut aracı masaya oturtulamıyordu. Archon ilk günden çalıştı."*
 >
 > — **Erdem K.**, Yazılım Müdürü · Savunma Sektörü
+
+</div>
+</div>
 
 ---
 

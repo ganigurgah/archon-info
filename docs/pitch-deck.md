@@ -97,6 +97,7 @@ style: |
 
 *Kaynak kodunuzu, analiz belgelerinizi ve bakım geçmişinizi öğrenen — tamamen kurumunuzun sunucusunda çalışan AI.*
 
+### **AI'ın en güçlü olduğu yer, kendi bağlamınızla çalıştığı yerdir; genel cevaplar değil.**
 ---
 
 <!-- ═══════════════════════════════════════════════════ -->

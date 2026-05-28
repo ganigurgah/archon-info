@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Archon — Her Proje İçin Kendi Yapay Zeka Mimarı</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ─── NAVBAR ─── -->
+<nav class="navbar">
+  <div class="container nav-inner">
+    <span class="brand">⬡ Archon</span>
+    <ul class="nav-links">
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#nasil-calisir">Nasıl Çalışır</a></li>
+      <li><a href="#ozellikler">Özellikler</a></li>
+      <li><a href="#senaryolar">Senaryolar</a></li>
+      <li><a href="#kurumsal">Kurumsal</a></li>
+      <li><a href="#iletisim" class="btn-nav">Demo Talep Et</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="badge">Yapay Zeka · On-Premise · Kurumsal</div>
+    <h1>Her Proje İçin<br /><span class="gradient-text">Kendi Yapay Zeka Mimarı</span></h1>
+    <p class="hero-sub">
+      ChatGPT genel bilgiyle cevap verir. <strong>Archon sizin projenizin bilgisiyle cevap verir.</strong><br />
+      Kaynak kodunuzu, analiz belgelerinizi ve bakım geçmişinizi bilen — tamamen kurumunuzun sunucusunda çalışan AI.
+    </p>
+    <div class="hero-cta">
+      <a href="#iletisim" class="btn-primary">Demo Talep Et</a>
+      <a href="#nasil-calisir" class="btn-ghost">Nasıl Çalışır?</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">%60</span>
+        <span class="stat-label">Code review süresi azalır</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">4× </span>
+        <span class="stat-label">Daha hızlı onboarding</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">0</span>
+        <span class="stat-label">Veri dışarı çıkmaz</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROBLEM ─── -->
+<section id="problem" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Problem</span>
+      <h2>Yazılım Ekipleri 3 Kritik Sorunla Boğuşuyor</h2>
+      <p class="section-sub">Genel yapay zeka araçları bu sorunları çözmüyor — çünkü sizin projenizi tanımıyorlar.</p>
+    </div>
+    <div class="cards-3">
+      <div class="card card-problem">
+        <div class="card-icon">🧠</div>
+        <h3>Bilgi Kaybı</h3>
+        <p>Kıdemli geliştirici ayrıldığında yıllarca biriken mimari kararlar, özel çözümler ve domain bilgisi onunla gider. Proje hafızası kişiye bağlıdır.</p>
+      </div>
+      <div class="card card-problem">
+        <div class="card-icon">⚠️</div>
+        <h3>Tutarsız Kalite</h3>
+        <p>10 geliştirici, 10 farklı yaklaşım. Naming convention ihlalleri, güvenlik açıkları ve mimari sapmalar her code review'da yeniden tartışılır.</p>
+      </div>
+      <div class="card card-problem">
+        <div class="card-icon">⏱️</div>
+        <h3>Uzun Onboarding</h3>
+        <p>Yeni geliştirici projeye adapte olmak için ortalama 2–4 ay harcıyor. Bu sürede ekibin verimliliği düşüyor, kıdemli yazılımcılar yavaşlıyor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ÇÖZÜM BANNER ─── -->
+<section class="solution-banner">
+  <div class="container">
+    <p class="solution-text">
+      <strong>Archon</strong>, her yazılım projesi için ayrı bir yapay zeka bilgi tabanı oluşturur ve projenin kodunu, analizini ve domain dilini öğrenen özel model eğitir.<br />
+      <span class="solution-sub">Tüm süreç kurumunuzun sunucusunda gerçekleşir. Veri hiçbir zaman dışarı çıkmaz.</span>
+    </p>
+  </div>
+</section>
+
+<!-- ─── NASIL ÇALIŞIR ─── -->
+<section id="nasil-calisir" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Nasıl Çalışır</span>
+      <h2>Dört Adımda Projeye Özel AI</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Kaynak Eklenir</h3>
+          <p>Git reposu, yerel dizin, PDF belgesi veya Confluence alanı Archon'a tanıtılır. Otomatik senkronizasyon her 5 dakika ile 1 saatte bir çalışır.</p>
+        </div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>Bilgi Tabanı Oluşturulur</h3>
+          <p>Kaynak kod, analiz belgesi, bakım notu ayrı ayrı indekslenir. ChromaDB vektör veritabanı, soruya en ilgili bilgiyi milisaniyeler içinde bulur.</p>
+        </div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Model Eğitilir (Opsiyonel)</h3>
+          <p>QLoRA fine-tuning ile projenin naming convention'ını, mimarisini ve domain dilini içselleştiren özel model; kurumunuzun GPU'sunda eğitilir. Manuel veri girişi gerekmez.</p>
+        </div>
+      </div>
+      <div class="step-line"></div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div class="step-body">
+          <h3>Ekip Kullanmaya Başlar</h3>
+          <p>Soru sormak, kod review istemek, PR analizi yaptırmak, onboarding desteği almak — hepsi projeye özel bilgiyle, projeye özel modelle yanıtlanır.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ÖZELLİKLER ─── -->
+<section id="ozellikler" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Özellikler</span>
+      <h2>Yazılım Geliştirme Sürecinin Tamamı</h2>
+      <p class="section-sub">Analizden bakıma — Archon yazılım yaşam döngüsünün her aşamasında aktif.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📚</div>
+        <h3>Proje Bilgi Tabanı</h3>
+        <p>Her proje için ayrı RAG koleksiyonu. Kaynak kod, analiz belgesi, bakım notu birbirinden izole.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>Kod Review</h3>
+        <p>Projenin standartlarına göre otomatik inceleme: güvenlik, mimari, naming convention, anti-pattern tespiti.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔀</div>
+        <h3>Otomatik PR Review</h3>
+        <p>GitHub / GitLab webhook ile PR açıldığında tetiklenir. Diff analizi yapılır, bulgular geliştiriciye comment olarak iletilir.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧬</div>
+        <h3>Domain Adaptation</h3>
+        <p>Kaynak koddan otomatik fine-tuning. Manuel eğitim verisi girişi gerekmez — projenin "DNA'sı" modele öğretilir.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Model Registry</h3>
+        <p>Eğitilen modeller versiyonlanır. DEPLOYED model tüm proje sorgularında otomatik devreye girer. Tek tıkla rollback.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🚀</div>
+        <h3>Onboarding Asistanı</h3>
+        <p>"Bu servis ne yapar?" sorusuna gerçek kaynak koddan, gerçek analiz belgelerinden yanıt. Yeni geliştirici haftalar içinde adapte olur.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🧪</div>
+        <h3>Test Üretici</h3>
+        <p>Kaynak kodu gönderin, projenin test framework'üne uygun test sınıfları otomatik üretilsin.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📊</div>
+        <h3>Teknik Borç Analizi</h3>
+        <p>Proje standartlarından sapmaları tespit eder, önceliklendirilmiş rapor ve iyileştirme önerileri sunar.</p>
+      </div>
+      <div class="feature-card feature-card-soon">
+        <div class="feature-icon">🧩</div>
+        <h3>IDE Eklentisi <span class="soon-badge">Yakında</span></h3>
+        <p>IntelliJ IDEA ve VS Code için yerel eklenti. Geliştirici, Archon'a doğrudan IDE içinden soru sorabilir; seçili kod bloğunu review'a gönderebilir; önerilen değişikliği editörde anında uygulayabilir.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── KULLANIM SENARYOLARI ─── -->
+<section id="senaryolar" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Kullanım Senaryoları</span>
+      <h2>Kurumsal Projelerde Archon Ne Sağlar?</h2>
+      <p class="section-sub">NexaCore — çok modüllü, çok para birimli kurumsal fintech platformu · Java/Spring Boot · 600K+ satır kaynak kodu</p>
+    </div>
+    <div class="scenarios">
+      <div class="scenario">
+        <div class="scenario-phase">Analiz</div>
+        <div class="scenario-body">
+          <div class="scenario-q">"Uluslararası transfer işlemlerinde çoklu para birimi kur farkı hesaplaması hangi servis katmanında yönetiliyor? FX oranları için harici API entegrasyonu mu var, yoksa dahili kur tablosu mu tutuluyor?"</div>
+          <div class="scenario-a">
+            Archon 340 sayfalık gereksinim dokümanını, 12 adet Architecture Decision Record'u (ADR) ve 3 sprint'lik analiz notunu çapraz sorgular. <strong>ExchangeRateService</strong>'in sorumluluğunu, birincil FX API + fallback strateji konfigürasyonunu ve mevzuata uyum notlarını tek yanıtta dokümante eder. Analist manuel okuma yerine 3 saati 90 saniyeye indirir.
+          </div>
+        </div>
+      </div>
+      <div class="scenario">
+        <div class="scenario-phase">Geliştirme</div>
+        <div class="scenario-body">
+          <div class="scenario-q">"Sipariş onay akışında eşzamanlı istek geldiğinde aynı sipariş iki kez onaylanabilir mi? Optimistic locking veya idempotency token uygulanmış mı?"</div>
+          <div class="scenario-a">
+            Archon <strong>OrderApprovalService</strong> kaynak kodunu ve ilgili entity'leri analiz eder: "<code>@Version</code> ile optimistic locking mevcut ancak idempotency token kontrolü eksik — <code>OrderController.approve():134</code>'te duplicate submission riski var. Benzer bir koruma <code>PaymentService</code>'te uygulanmış, aynı pattern buraya da uygulanabilir." Geliştirici doğru kaynağa, doğru satıra, karşılaştırmalı örnekle yönlendirilir.
+          </div>
+        </div>
+      </div>
+      <div class="scenario">
+        <div class="scenario-phase">Code Review</div>
+        <div class="scenario-body">
+          <div class="scenario-q">PR #512 açıldı — ödeme modülüne gece toplu mutabakat (batch reconciliation) servisi eklendi. 1.400 satır değişiklik.</div>
+          <div class="scenario-a">
+            Archon NexaCore'un mimari standartlarına ve güvenlik profiline göre inceleme yapar. Tespit edilen kritik bulgular PR comment olarak önceliklendirilmiş şekilde iletilir:<br />
+            <strong>[Kritik]</strong> <code>ReconciliationBatch.process()</code> içinde yakalanan checked exception loglanmadan yutulmuş — mutabakat hatası sessiz kalır.<br />
+            <strong>[Yüksek]</strong> <code>@Transactional(rollbackFor = Exception.class)</code> eksik — kısmi yazım başarısız olduğunda tutarsız veri kalabilir.<br />
+            <strong>[Orta]</strong> Batch fetch size ayarlanmamış; 50.000+ kayıtta <code>OutOfMemoryError</code> riski. Aynı proje içinde <code>ReportBatchService</code>'te önerilen konfigürasyon mevcuttur.
+          </div>
+        </div>
+      </div>
+      <div class="scenario">
+        <div class="scenario-phase">Bakım</div>
+        <div class="scenario-body">
+          <div class="scenario-q">Production'da yüksek yük altında <code>StackOverflowError</code> alınıyor:<br /><em>"Exception in thread 'async-4' java.lang.StackOverflowError at com.nexacore.reporting.ReportAggregator.aggregate(ReportAggregator.java:89)"</em><br />Hata aralıklı, yeniden üretilemiyor.</div>
+          <div class="scenario-a">
+            Archon kaynak kodu ve bakım notlarını birlikte analiz eder. <strong>ReportAggregator.aggregate()</strong> ile <strong>ReportNode.calculate()</strong> arasında belirli rapor şablonu kombinasyonlarında döngüsel çağrı zinciri oluştuğunu tespit eder. Sorunu yeniden üreten veri koşulu ve önerilen çözüm — referanslı kaynak satırlarıyla birlikte — tek yanıtta sunulur.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── KURUMSAL HAZIRLIK ─── -->
+<section id="kurumsal" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Kurumsal Hazırlık</span>
+      <h2>Kurumsal Ortamlar İçin Tasarlandı</h2>
+    </div>
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon">🏢</div>
+        <h3>On-Premise Kurulum</h3>
+        <p>Archon tamamen kurumunuzun altyapısında çalışır. Bulut bağlantısı zorunlu değildir. Verileriniz asla dışarı çıkmaz.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🔒</div>
+        <h3>Air-Gapped Destek</h3>
+        <p>İnternetsiz, güvenlik kısıtlı ortamlarda kurulum desteği. Finans, kamu ve savunma sektörü gereksinimleri karşılanır.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🏗️</div>
+        <h3>Multi-Tenant Mimari</h3>
+        <p>Tek kurulum üzerinden birden fazla proje ve departman. Departman bazlı veri izolasyonu garanti altında.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">🔌</div>
+        <h3>REST API & Webhook</h3>
+        <p>IDE eklentisi, CI/CD pipeline, Jira, Confluence ve kurumsal araçlarla entegrasyon için tam API.</p>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">📋</div>
+        <h3>Audit Log & Quota</h3>
+        <p>Her işlem kayıt altında. Departman bazlı token limiti, kullanım raporlaması, KVKK uyumluluğu.</p>
+      </div>
+    </div>
+    <div class="tech-stack">
+      <span class="tech-tag">Java 21 / Spring Boot 3</span>
+      <span class="tech-tag">Python 3</span>
+      <span class="tech-tag">ChromaDB</span>
+      <span class="tech-tag">Ollama / QLoRA</span>
+      <span class="tech-tag">PostgreSQL</span>
+      <span class="tech-tag">GitHub / GitLab</span>
+      <span class="tech-tag">Confluence</span>
+      <span class="tech-tag">REST API</span>
+    </div>
+  </div>
+</section>
+
+<!-- ─── KARŞILAŞTIRMA ─── -->
+<section class="section compare-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Karşılaştırma</span>
+      <h2>Archon vs. Genel AI Araçları</h2>
+    </div>
+    <div class="compare-table-wrap">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Özellik</th>
+            <th>ChatGPT / Copilot</th>
+            <th>GitHub Copilot Enterprise</th>
+            <th class="archon-col">Archon</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Projeye özel bilgi tabanı</td>
+            <td class="no">✗</td>
+            <td class="partial">Kısıtlı</td>
+            <td class="yes archon-col">✓ Tam proje hafızası</td>
+          </tr>
+          <tr>
+            <td>On-premise kurulum</td>
+            <td class="no">✗</td>
+            <td class="no">✗</td>
+            <td class="yes archon-col">✓</td>
+          </tr>
+          <tr>
+            <td>Air-gapped destek</td>
+            <td class="no">✗</td>
+            <td class="no">✗</td>
+            <td class="yes archon-col">✓</td>
+          </tr>
+          <tr>
+            <td>Veri gizliliği</td>
+            <td class="no">Buluta gider</td>
+            <td class="no">Microsoft'a gider</td>
+            <td class="yes archon-col">✓ Kurumda kalır</td>
+          </tr>
+          <tr>
+            <td>Fine-tuned özel model</td>
+            <td class="no">✗</td>
+            <td class="no">✗</td>
+            <td class="yes archon-col">✓ QLoRA</td>
+          </tr>
+          <tr>
+            <td>SDLC entegrasyonu</td>
+            <td class="no">✗</td>
+            <td class="partial">Kısıtlı</td>
+            <td class="yes archon-col">✓ Analiz'den bakıma</td>
+          </tr>
+          <tr>
+            <td>IDE eklentisi (IntelliJ / VS Code)</td>
+            <td class="partial">✗</td>
+            <td class="partial">✓ (sınırlı)</td>
+            <td class="yes archon-col">✓ Yakında</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ─── İLETİŞİM / CTA ─── -->
+<section id="iletisim" class="section cta-section">
+  <div class="container cta-inner">
+    <h2>Archon'u Canlı Görün</h2>
+    <p>Demo talebinizi iletebilir veya projenizi tartışmak için bizimle iletişime geçebilirsiniz.</p>
+    <a href="mailto:ganigurgah@gmail.com" class="btn-primary btn-large">Demo Talep Et →</a>
+    <p class="cta-email">veya doğrudan yazın: <a href="mailto:ganigurgah@gmail.com">ganigurgah@gmail.com</a></p>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <span class="brand">⬡ Archon</span>
+    <span class="footer-tagline">Veri kurumunuzda kalır. Bilgi birikir. Kalite artar.</span>
+    <span class="footer-copy">© 2026 Archon</span>
+  </div>
+</footer>
+
+</body>
+</html>
